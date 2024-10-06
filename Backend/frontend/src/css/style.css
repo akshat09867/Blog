@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2022/12/01/04/40/backpacker-7628303_640.jpg');
+   
+    background-size: cover;
+    background-position: center;
+}
+.gap{
+    gap:30px;
+    font-size: 20px;
+    color:yellow;
+    padding-top: 10px;
+}
+#ga{
+    gap:300px;
+    display: flex;
+    background-color: blueviolet;
+    height: 45px;
+    text-align: center;
+    
+}
+#aa{
+    padding-left: 20px;
+}
+.gap:hover{
+    background-color: black;
+    cursor: pointer;
+}
+/* #bh{
+    text-align: center;
+} */
+.post-box {
+    border: 1px solid black; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Space inside the box */
+    margin: 16px auto; /* Center the box and add space outside */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 450px; /* Set a maximum width for the box */
+    width: 100%; /* Allow the box to be responsive */
+    overflow: auto; /* Allow scrolling if content overflows */
+    max-height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/08/17/59/dandelion-8496044_640.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    color: rgb(26, 1, 8)  ;
+}
+.post-box div{
+    white-space: pre-wrap;
+}
+
+.post-box h2 {
+    margin-top: 0; /* Remove top margin for the title */
+}
+
+.post-box p {
+    margin: 8px 0; /* Space between paragraphs */
+    
+}
+@media screen and (max-width: 768px) {
+    .posts-box {
+      flex-direction: column;
+      align-items: center;
+    }
+   .ga {
+            flex-direction: row; /* Stack items vertically on small screens */
+            align-items: flex-start; /* Align to the left */
+        }
+        .ga .gap{
+            
+                margin-bottom: 10px; /* Adds space between items */
+            
+        }
+    
+  }
+  .ga {
+    display: flex; /* Corrected from 'flexbox' to 'flex' */
+    flex-direction: row;
+    justify-content: space-around; /* Adds equal spacing between the links */
+    align-items: center; /* Aligns items vertically in the center */
+    list-style-type: none; /* Removes bullets */
+    margin: 0;
+    padding: 0;
+}
+.g{
+  margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.g:hover{
+    background-color: brown;
+    cursor: pointer;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text; /* for Webkit browsers */
+    color: transparent; /* hide the original text */
+   
+}
+ .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    font-size: 18px; 
+    white-space: pre-wrap; 
+  } 
+  .image {
+    height: auto;
+  }
+  .image-container {
+    position: relative;
+    margin: 20px;
+    gap: 20px;
+    overflow: auto;
+  }
+     .tt{
+    justify-content: center;
+    text-align: center;
+   overflow: auto;
+  }

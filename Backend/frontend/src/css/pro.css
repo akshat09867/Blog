@@ -1,0 +1,23 @@
+.profile{
+    border: 1px solid black; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Space inside the box */
+    margin: 16px auto; /* Center the box and add space outside */
+    background-color: gold; /* Background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 450px; /* Set a maximum width for the box */
+    width: 100%; /* Allow the box to be responsive */
+    background-image: url('https://cdn.pixabay.com/photo/2019/10/30/14/51/autumn-4589724_640.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jj{
+    padding: 10px;
+    background-color: burlywood;
+    font-size: 20px;
+}
+#jj:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
