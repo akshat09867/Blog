@@ -51,7 +51,7 @@ https://blog-jkdx.onrender.com/api/v1/users/register
 <p>4.Run </p>
     cd Backend</br>
     npm run dev
-<p style="font-size:24px">5. Open your browser and navigate on http://localhost:{yourPort}/api/v1/users/register</p>
+<p style="font-size:35px">5. Open your browser and navigate on http://localhost:{yourPort}/api/v1/users/register</p>
 
 
 
