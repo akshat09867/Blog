@@ -43,9 +43,9 @@ function Mypost(){
         <div >
             { post &&Array.isArray(post) &&post.length>0?(
                 post.map((data)=>(
-                    <div className='tt' key={data._id}>
-      <div className="image-container">
-        <img src="https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg"alt='img' className="image" />
+                    <span className='tt' key={data._id}>
+      <div className="image-container ">
+      
         <div className="content">
           <h1>Title: {data.title}</h1>
           <h3>Excerpt: {data.excerpt}</h3>
@@ -54,7 +54,8 @@ function Mypost(){
           <button onClick={()=>handleDelete(data._id)}className="content-text">Delete This Post</button>
         </div>
       </div>
-    </div>
+    </span>
+    
                 ))
        )
     :(<h1>No Post Available</h1>)}

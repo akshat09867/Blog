@@ -38,7 +38,7 @@ fetchPosts()
     <span className='gap' onClick={onSubmit}>Logout</span>
   </div>
 </nav>
-<h1 style={{textAlign:"center"}}>ZESTY ZONE</h1>
+<h1 style={{textAlign:"center"}}>BLOGS</h1>
 <div id='bh'>
   {post && Array.isArray(post) && post.length>0?(
     post.map((i)=>(

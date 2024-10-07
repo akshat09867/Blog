@@ -41,10 +41,11 @@ body {
     width: 100%; /* Allow the box to be responsive */
     overflow: auto; /* Allow scrolling if content overflows */
     max-height: 300px;
-    background-image: url('https://cdn.pixabay.com/photo/2024/01/08/17/59/dandelion-8496044_640.jpg');
+    /* background-image: url('https://cdn.pixabay.com/photo/2024/01/08/17/59/dandelion-8496044_640.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover  ;
+    background-size: cover  ; */
+    background-color: gray;
     color: rgb(26, 1, 8)  ;
 }
 .post-box div{
@@ -101,7 +102,7 @@ body {
    
 }
  .content {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     padding: 20px; 
@@ -109,18 +110,41 @@ body {
     color: white;
     font-size: 18px; 
     white-space: pre-wrap; 
+    margin: 20px;
+    overflow: auto;
   } 
-  .image {
-    height: auto;
-  }
+  
   .image-container {
     position: relative;
-    margin: 20px;
-    gap: 20px;
-    overflow: auto;
+    width: auto;
+    height: auto; 
+   
   }
-     .tt{
-    justify-content: center;
+     /* .tt{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%; 
+        background-color: rgba(0, 0, 0, 0.6); 
+        color: white; 
+        padding: 20px;
+        box-sizing: border-box;
+  } */
+  .rr{
+    font-size: 35px;
+    color: wheat;
+  }
+  .ttt{
+    width: 400px;
+    height: 100px;
+    font-size: 25px;
+  }
+  .form{
     text-align: center;
-   overflow: auto;
+    justify-content: center;
+  }
+  .image{
+    height: auto;
+    width: 00px;
   }

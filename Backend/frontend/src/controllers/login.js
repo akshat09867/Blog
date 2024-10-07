@@ -31,7 +31,7 @@ import { useNavigate } from 'react-router-dom'
       const filled=info.Email&&info.password
     return(
         <>
-        <h1 style={{textAlign:"center"}}>LOGIN PAGE</h1>
+        <h1 style={{textAlign:"center"}}>LOGIN</h1>
         <form onSubmit={onSubmit} style={{textAlign:"center",color:"wheat",margin:"30px",padding:"30px",fontSize:"30px"}}>
             <span><b>Email: </b></span>
             <input type='Email'name='Email'placeholder='Your Email'onChange={onHandle} value={info.Email}/><br /><br />

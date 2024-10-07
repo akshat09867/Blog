@@ -15,8 +15,11 @@ function Register() {
   const onHandle=(e)=>{ setData({...data,[e.target.name]:e.target.value})}
   const Handleimagechange=(e)=>{setimage(e.target.files[0])}   // Store the selected image file
   const handleSubmit=async(e)=>{
-    e.preventDefault();   //prevent page reload
-    console.log(data);
+    e.preventDefault();  //prevent page reload
+    if (data.password.length < 8) {
+      alert("Password must be at least 8 characters long");
+      return;  // Stop form submission
+    } 
     const formData=new FormData()
     formData.append("Name", data.Name);
     formData.append("username", data.username);
