@@ -1,4 +1,4 @@
-#BLOGGING PLATFORM
+<h1>#BLOGGING PLATFORM</h1>
 This is the link of my website->
 https://blog-jkdx.onrender.com/api/v1/users/register
 
