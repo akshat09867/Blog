@@ -31,26 +31,34 @@ https://blog-jkdx.onrender.com/api/v1/users/register
 
 <p>1. Clone the repository</p>
         https://github.com/akshat09867/Blog.git
+
+
 <p>2.Install dependencies</p> 
         -cd Backend
         -npm init
         -npm i (All the dependencies or dev-dependencies which are in package.json file)
     -cd frontend
     -npm install 
+
+
 <p>3.Create a .env file(for Environment Variables)</p>
 
     MONGODB_URI=yourMongoDBConnectionString</br>
-    SERVER_PORT=your port</br>
-    JWT_ACCESS_SECRET=your access token secret key</br>
-    JWT_REFRESH_SECRET=your refresh token secret key</br>
-    JWT_ACCESS_EXPIRATION=your access token expiring time</br>
-    JWT_REFRESH_EXPIRATION=your refresh token expiring time</br>
-    CLOUDINARY_API_KEY=your cloudinary api key</br>
-    CLOUDINARY_API_SECRET=your cloudinary api secret</br>
-    CLOUDINARY_CLOUD_NAME=your cloudinary  cloud name</br>
+    SERVER_PORT=your port
+    JWT_ACCESS_SECRET=your access token secret key
+    JWT_REFRESH_SECRET=your refresh token secret key
+    JWT_ACCESS_EXPIRATION=your access token expiring time
+    JWT_REFRESH_EXPIRATION=your refresh token expiring time
+    CLOUDINARY_API_KEY=your cloudinary api key
+    CLOUDINARY_API_SECRET=your cloudinary api secret
+    CLOUDINARY_CLOUD_NAME=your cloudinary  cloud name
+
+
 <p>4.Run </p>
     cd Backend</br>
     npm run dev
+
+    
 <p style="font-size:35px">5. Open your browser and navigate on http://localhost:{yourPort}/api/v1/users/register</p>
 
 
