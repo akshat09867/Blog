@@ -32,7 +32,7 @@ https://blog-jkdx.onrender.com/api/v1/users/register
 <p>1. Clone the repository</p>
         https://github.com/akshat09867/Blog.git
 
-<br>
+  <p> </p>
 <p>2.Install dependencies</p> 
         <p>-cd Backend</p>
         <p>-npm init</p>
@@ -55,11 +55,11 @@ https://blog-jkdx.onrender.com/api/v1/users/register
 
 <p></p>
 <p>4.Run </p>
-    cd Backend<br>
-    npm run dev
+    -cd Backend<br>
+    -npm run dev
 
 <p></p>
-<p style="font-size:35px;">5. Open your browser and navigate on http://localhost:{yourPort}/api/v1/users/register</p>
+<p >5. Open your browser and navigate on http://localhost:{yourPort}/api/v1/users/register</p>
 
 
 
