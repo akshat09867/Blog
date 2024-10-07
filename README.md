@@ -34,12 +34,12 @@ https://blog-jkdx.onrender.com/api/v1/users/register
 
 <br>
 <p>2.Install dependencies</p> 
-        -cd Backend
-        -npm init
-        -npm i (All the dependencies or dev-dependencies which are in package.json file)
-    -cd frontend
-    -npm install 
-<br>
+        <p>-cd Backend</p>
+        <p>-npm init</p>
+      <p>  -npm i (All the dependencies or dev-dependencies which are in package.json file)</p>
+    <p>-cd frontend</p>
+   <p>  -npm install</p>
+<p></p>
 
 <p>3.Create a .env file(for Environment Variables)</p>
 
@@ -53,12 +53,12 @@ https://blog-jkdx.onrender.com/api/v1/users/register
     CLOUDINARY_API_SECRET=your cloudinary api secret
     CLOUDINARY_CLOUD_NAME=your cloudinary  cloud name
 
-<br>
+<p></p>
 <p>4.Run </p>
     cd Backend<br>
     npm run dev
 
-<br>
+<p></p>
 <p style="font-size:35px;">5. Open your browser and navigate on http://localhost:{yourPort}/api/v1/users/register</p>
 
 
