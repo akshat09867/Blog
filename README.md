@@ -1,69 +1,61 @@
-<h1>#BLOGGING PLATFORM</h1>
-<h2>This is the link of my website-></h2>
-https://blog-jkdx.onrender.com/api/v1/users/register  
+# BLOGGING PLATFORM
 
-<h2>#Description</h2>
-<p>This is a fullstack blogging platform built with using javascript library(react) on frontend and using node.js with Express and Mongodb on backend.</p>
-<p>The platform allows users to create and delete blog posts.</p>
-<p>Each blog post associated with it's respective author and user can login to manage their own post.</p>
+This is the link of my [website](https://blog-jkdx.onrender.com/api/v1/users/register)  
 
+## Description
+This is a fullstack blogging platform built using JavaScript library (React) on the frontend and Node.js with Express and MongoDB on the backend.
 
-<h2>#Features</h2>
-<p>-User Authentication: Sign up, log in, and log out functionality using JWT with access and refresh tokens for secure session management.</p>
-<p>-Profile Picture Upload: Users can upload profile pictures during registration.</p>
-<p>-Blog Posts: Users can create, delete, and view blog posts.</p>
-<p>-Author Attribution: Each post is attributed to its respective author.</p>
-<p>-Database: MongoDB is used for data storage, with Mongoose to handle schema and data modeling.</p>
-<p>-Hashed Passwords: Secured password storage using bcrypt.</p>
+The platform allows users to create and delete blog posts.  
+Each blog post is associated with its respective author, and users can log in to manage their own posts.
 
+## Features
+- **User Authentication:** Sign up, log in, and log out functionality using JWT with access and refresh tokens for secure session management.
+- **Profile Picture Upload:** Users can upload profile pictures during registration.
+- **Blog Posts:** Users can create, delete, and view blog posts.
+- **Author Attribution:** Each post is attributed to its respective author.
+- **Database:** MongoDB is used for data storage, with Mongoose to handle schema and data modeling.
+- **Hashed Passwords:** Secured password storage using bcrypt.
 
-<h2>#Technologies Used</h2>
+## Technologies Used
+- **Frontend:** React, HTML5, CSS3
+- **Backend:** Node.js, Express.js, Mongoose
+- **Database:** MongoDB
+- **Cloudinary:** For image uploads
+- **Authentication:** JSON Web Tokens (JWT), bcrypt, Access and Refresh tokens
+- **Hosting:** Render for frontend and backend
 
-<p>-Frontend: React, HTML5, CSS3</p>
-<p>-Backend: Node.js, Express.js, Mongoose</p>
-<p>-Database: MongoDB</p>
-<p>-Cloudinary:For image uploads</p>
-<p>-Authentication: JSON Web Tokens (JWT), bcrypt, Access and Refresh tokens</p>
-<p>-Hosting: Render for frontend and backend</p>
+## Installation
 
+1. Clone the repository:  
+   https://github.com/akshat09867/Blog.git
 
-<h2>#Installation</h2>
+2. Install dependencies:  
+    ```bash
+    cd Backend
+    npm init
+    npm i
+    cd frontend
+    npm install
+    ```
 
-<p>1. Clone the repository</p>
-        https://github.com/akshat09867/Blog.git
-
-  <p> </p>
-<p>2.Install dependencies</p> 
-        <p>-cd Backend</p>
-        <p>-npm init</p>
-      <p>  -npm i (All the dependencies or dev-dependencies which are in package.json file)</p>
-    <p>-cd frontend</p>
-   <p>  -npm install</p>
-<p></p>
-
-<p>3.Create a .env file(for Environment Variables)</p>
-
+3. Create a `.env` file (for Environment Variables):
+    ```bash
     MONGODB_URI=yourMongoDBConnectionString
-    SERVER_PORT=your port
-    JWT_ACCESS_SECRET=your access token secret key
-    JWT_REFRESH_SECRET=your refresh token secret key
-    JWT_ACCESS_EXPIRATION=your access token expiring time
-    JWT_REFRESH_EXPIRATION=your refresh token expiring time
-    CLOUDINARY_API_KEY=your cloudinary api key
-    CLOUDINARY_API_SECRET=your cloudinary api secret
-    CLOUDINARY_CLOUD_NAME=your cloudinary  cloud name
+    SERVER_PORT=yourPort
+    JWT_ACCESS_SECRET=yourAccessTokenSecretKey
+    JWT_REFRESH_SECRET=yourRefreshTokenSecretKey
+    JWT_ACCESS_EXPIRATION=yourAccessTokenExpiringTime
+    JWT_REFRESH_EXPIRATION=yourRefreshTokenExpiringTime
+    CLOUDINARY_API_KEY=yourCloudinaryApiKey
+    CLOUDINARY_API_SECRET=yourCloudinaryApiSecret
+    CLOUDINARY_CLOUD_NAME=yourCloudinaryCloudName
+    ```
 
-<p></p>
-<p>4.Run </p>
-    -cd Backend<br>
-    -npm run dev
+4. Run:  
+    ```bash
+    cd Backend
+    npm run dev
+    ```
 
-<p></p>
-<p >5. Open your browser and navigate on http://localhost:{yourPort}/api/v1/users/register</p>
-
-
-
-
-
-
-
+5. Open your browser and navigate to:  
+   `http://localhost:{yourPort}/api/v1/users/register`
