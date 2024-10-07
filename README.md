@@ -1,6 +1,6 @@
 # BLOGGING PLATFORM
 
-This is the link of my [website](https://blog-jkdx.onrender.com/api/v1/users/register)  
+Visit my [website](https://blog-jkdx.onrender.com/api/v1/users/register).  
 
 ## Description
 This is a fullstack blogging platform built using JavaScript library (React) on the frontend and Node.js with Express and MongoDB on the backend.
