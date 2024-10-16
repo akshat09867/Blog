@@ -35,11 +35,11 @@ function CreatePost(){
              <form onSubmit={handleSubmit} className='form'>
                 <br /><br />
             <span className='rr'>Title:  </span>
-            <input className='ttt'type='text'name='title'placeholder='Your title'onChange={onHandle} value={data.title}/><br /><br />
+            <textarea className='ttt'type='text'name='title'placeholder='Your title'onChange={onHandle} value={data.title}/><br /><br />
             <span className='rr'>Excerpt:  </span>
-            <input className='ttt'type='text'placeholder='short description'name='excerpt'onChange={onHandle} value={data.excerpt}/><br /> <br />
+            <textarea className='ttt'type='text'placeholder='short description'name='excerpt'onChange={onHandle} value={data.excerpt}/><br /> <br />
             <span className='rr'>Content:  </span>
-            <input className='ttt'type='text'placeholder='Your Content'name='content'onChange={onHandle} value={data.content}/><br /> <br />
+            <textarea className='ttt'type='text'placeholder='Your Content'name='content'onChange={onHandle} value={data.content}/><br /> <br />
             <span className='rr'>Date:  </span>
             <input type='date'placeholder='Enter Date'name='date'onChange={onHandle} value={data.date}/><br /> <br />
             <button className='g'type='submit' disabled={!filled}>Create Post</button>

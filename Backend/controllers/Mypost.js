@@ -1,7 +1,6 @@
 import apierr from '../utils/apierr.js'
 import apires from '../utils/apires.js'
 import CreatePost from '../models/post.model.js'
-import User from '../models/User.model.js'
 const Myposts=async(req,res)=>{
    try {
      const post=await CreatePost.find({author:req.user._id}).populate("author","Name")
@@ -28,4 +27,14 @@ const Delpost=async(req,res)=>{
   throw new apierr(400)
  }
 }
-export {Myposts,Delpost}
+const UpdatePost=async(req,res)=>{
+  const postId=req.params._id
+  if (!postId) throw new apierr(400, "Invalid post ID");
+  const {title,excerpt,content,date}=req.body
+  const post=await CreatePost.findByIdAndUpdate(postId,{$set:{title,excerpt,content,date}},{new :true}).populate("author","Name")
+  if(!post) throw new apierr(404,"post not found")
+    res
+  .status(200)
+  .json(new apires(200,"updated successfully",post))
+}
+export {Myposts,Delpost,UpdatePost}

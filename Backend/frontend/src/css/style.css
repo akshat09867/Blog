@@ -137,7 +137,7 @@ body {
   }
   .ttt{
     width: 400px;
-    height: 100px;
+    height: fit-content;
     font-size: 25px;
   }
   .form{
@@ -147,4 +147,13 @@ body {
   .image{
     height: auto;
     width: 00px;
+  }
+  .content-text{
+    margin: 5px 10px;
+    background-color: wheat;
+  }
+  .text{
+    margin: 20px;
+    height: fit-content;
+    width: 400px;
   }
