@@ -6,13 +6,13 @@ https://blog-jkdx.onrender.com/api/v1/users/register
 ## Description
 This is a fullstack blogging platform built using JavaScript library (React) on the frontend and Node.js with Express and MongoDB on the backend.
 
-The platform allows users to create and delete blog posts.  
+The platform allows users to create, delete and update blog posts.  
 Each blog post is associated with its respective author, and users can log in to manage their own posts.
 
 ## Features
 - **User Authentication:** Sign up, log in, and log out functionality using JWT with access and refresh tokens for secure session management.
 - **Profile Picture Upload:** Users can upload profile pictures during registration.
-- **Blog Posts:** Users can create, delete, and view blog posts.
+- **Blog Posts:** Users can create, delete,view and update blog posts.
 - **Author Attribution:** Each post is attributed to its respective author.
 - **Database:** MongoDB is used for data storage, with Mongoose to handle schema and data modeling.
 - **Hashed Passwords:** Secured password storage using bcrypt.
